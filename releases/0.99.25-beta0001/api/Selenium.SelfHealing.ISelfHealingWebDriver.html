@@ -132,10 +132,22 @@ This is an exact implementation of all interfaces in Selenium.Support v2.53.1.0.
       <span class="xref">OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(System.String, System.Object[])</span>
     </div>
     <div>
+      <span class="xref">OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(OpenQA.Selenium.PinnedScript, System.Object[])</span>
+    </div>
+    <div>
       <span class="xref">OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript(System.String, System.Object[])</span>
     </div>
     <div>
       <span class="xref">OpenQA.Selenium.ITakesScreenshot.GetScreenshot()</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.IActionExecutor.PerformActions(System.Collections.Generic.IList&lt;OpenQA.Selenium.Interactions.ActionSequence&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.IActionExecutor.ResetInputState()</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.IActionExecutor.IsActionExecutor</span>
     </div>
     <div>
       <span class="xref">OpenQA.Selenium.IAllowsFileDetection.FileDetector</span>
@@ -143,12 +155,36 @@ This is an exact implementation of all interfaces in Selenium.Support v2.53.1.0.
     <div>
       <span class="xref">OpenQA.Selenium.IHasCapabilities.Capabilities</span>
     </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.Internal.IFindsElement.FindElement(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.Internal.IFindsElement.FindElements(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.ISupportsPrint.Print(OpenQA.Selenium.PrintOptions)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.IHasCommandExecutor.CommandExecutor</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.ICustomDriverCommandExecutor.ExecuteCustomDriverCommand(System.String, System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.ICustomDriverCommandExecutor.RegisterCustomDriverCommands(System.Collections.Generic.IReadOnlyDictionary&lt;System.String, OpenQA.Selenium.CommandInfo&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.ICustomDriverCommandExecutor.RegisterCustomDriverCommand(System.String, OpenQA.Selenium.CommandInfo)</span>
+    </div>
+    <div>
+      <span class="xref">OpenQA.Selenium.IHasSessionId.SessionId</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Selenium.SelfHealing.html">Selenium.SelfHealing</a></h6>
   <h6><strong>Assembly</strong>: Selenium.SelfHealing.v4.dll</h6>
   <h5 id="Selenium_SelfHealing_ISelfHealingWebDriver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISelfHealingWebDriver : IWebDriver, ISearchContext, IDisposable, IJavaScriptExecutor, ITakesScreenshot, IAllowsFileDetection, IHasCapabilities</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISelfHealingWebDriver : IWebDriver, ISearchContext, IDisposable, IJavaScriptExecutor, ITakesScreenshot, IActionExecutor, IAllowsFileDetection, IHasCapabilities, IFindsElement, ISupportsPrint, IHasCommandExecutor, ICustomDriverCommandExecutor, IHasSessionId</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>

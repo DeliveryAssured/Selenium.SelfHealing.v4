@@ -99,14 +99,14 @@
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
     <div><span class="xref">OpenQA.Selenium.IJavaScriptExecutor</span></div>
     <div><span class="xref">OpenQA.Selenium.ITakesScreenshot</span></div>
-    <div><span class="xref">IActionExecutor</span></div>
+    <div><span class="xref">OpenQA.Selenium.IActionExecutor</span></div>
     <div><span class="xref">OpenQA.Selenium.IAllowsFileDetection</span></div>
     <div><span class="xref">OpenQA.Selenium.IHasCapabilities</span></div>
-    <div><span class="xref">IFindsElement</span></div>
-    <div><span class="xref">ISupportsPrint</span></div>
-    <div><span class="xref">IHasCommandExecutor</span></div>
-    <div><span class="xref">ICustomDriverCommandExecutor</span></div>
-    <div><span class="xref">IHasSessionId</span></div>
+    <div><span class="xref">OpenQA.Selenium.Internal.IFindsElement</span></div>
+    <div><span class="xref">OpenQA.Selenium.ISupportsPrint</span></div>
+    <div><span class="xref">OpenQA.Selenium.IHasCommandExecutor</span></div>
+    <div><span class="xref">OpenQA.Selenium.ICustomDriverCommandExecutor</span></div>
+    <div><span class="xref">OpenQA.Selenium.IHasSessionId</span></div>
     <div><a class="xref" href="Selenium.SelfHealing.ISearchContextDisabledHealing.html">ISearchContextDisabledHealing</a></div>
   </div>
   <div class="inheritedMembers">
@@ -138,10 +138,66 @@
   <h5 id="Selenium_SelfHealing_SelfHealingWebDriver_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true)]
-public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, ISearchContext, IDisposable, IJavaScriptExecutor, ITakesScreenshot, IAllowsFileDetection, IHasCapabilities, ISearchContextDisabledHealing</code></pre>
+public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, ISearchContext, IDisposable, IJavaScriptExecutor, ITakesScreenshot, IActionExecutor, IAllowsFileDetection, IHasCapabilities, IFindsElement, ISupportsPrint, IHasCommandExecutor, ICustomDriverCommandExecutor, IHasSessionId, ISearchContextDisabledHealing</code></pre>
   </div>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_IsActionExecutor_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#IsActionExecutor*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_IsActionExecutor" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#IsActionExecutor">IActionExecutor.IsActionExecutor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IActionExecutor.IsActionExecutor { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_PerformActions_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#PerformActions*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_PerformActions_System_Collections_Generic_IList_OpenQA_Selenium_Interactions_ActionSequence__" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#PerformActions(System.Collections.Generic.IList{OpenQA.Selenium.Interactions.ActionSequence})">IActionExecutor.PerformActions(IList&lt;ActionSequence&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IActionExecutor.PerformActions(IList&lt;ActionSequence&gt; actionSequenceList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">OpenQA.Selenium.Interactions.ActionSequence</span>&gt;</td>
+        <td><span class="parametername">actionSequenceList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_ResetInputState_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#ResetInputState*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IActionExecutor_ResetInputState" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IActionExecutor#ResetInputState">IActionExecutor.ResetInputState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IActionExecutor.ResetInputState()</code></pre>
+  </div>
   <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IAllowsFileDetection_FileDetector_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector*"></a>
   <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IAllowsFileDetection_FileDetector" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector">IAllowsFileDetection.FileDetector</h4>
   <div class="markdown level1 summary"></div>
@@ -161,6 +217,121 @@ public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, IS
     <tbody>
       <tr>
         <td><span class="xref">OpenQA.Selenium.IFileDetector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_ExecuteCustomDriverCommand_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#ExecuteCustomDriverCommand*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_ExecuteCustomDriverCommand_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#ExecuteCustomDriverCommand(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">ICustomDriverCommandExecutor.ExecuteCustomDriverCommand(String, Dictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object ICustomDriverCommandExecutor.ExecuteCustomDriverCommand(string driverCommandToExecute, Dictionary&lt;string, object&gt; parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">driverCommandToExecute</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_RegisterCustomDriverCommand_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#RegisterCustomDriverCommand*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_RegisterCustomDriverCommand_System_String_OpenQA_Selenium_CommandInfo_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#RegisterCustomDriverCommand(System.String,OpenQA.Selenium.CommandInfo)">ICustomDriverCommandExecutor.RegisterCustomDriverCommand(String, CommandInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ICustomDriverCommandExecutor.RegisterCustomDriverCommand(string commandName, CommandInfo commandInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">commandName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.CommandInfo</span></td>
+        <td><span class="parametername">commandInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_RegisterCustomDriverCommands_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#RegisterCustomDriverCommands*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ICustomDriverCommandExecutor_RegisterCustomDriverCommands_System_Collections_Generic_IReadOnlyDictionary_System_String_OpenQA_Selenium_CommandInfo__" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ICustomDriverCommandExecutor#RegisterCustomDriverCommands(System.Collections.Generic.IReadOnlyDictionary{System.String,OpenQA.Selenium.CommandInfo})">ICustomDriverCommandExecutor.RegisterCustomDriverCommands(IReadOnlyDictionary&lt;String, CommandInfo&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ICustomDriverCommandExecutor.RegisterCustomDriverCommands(IReadOnlyDictionary&lt;string, CommandInfo&gt; commands)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a>, <span class="xref">OpenQA.Selenium.CommandInfo</span>&gt;</td>
+        <td><span class="parametername">commands</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -188,6 +359,52 @@ public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, IS
       </tr>
     </tbody>
   </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasCommandExecutor_CommandExecutor_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCommandExecutor#CommandExecutor*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasCommandExecutor_CommandExecutor" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCommandExecutor#CommandExecutor">IHasCommandExecutor.CommandExecutor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandExecutor IHasCommandExecutor.CommandExecutor { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.ICommandExecutor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasSessionId_SessionId_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasSessionId#SessionId*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasSessionId_SessionId" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasSessionId#SessionId">IHasSessionId.SessionId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SessionId IHasSessionId.SessionId { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.SessionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteAsyncScript_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript*"></a>
   <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteAsyncScript_System_String_System_Object___" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript(System.String,System.Object[])">IJavaScriptExecutor.ExecuteAsyncScript(String, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -208,6 +425,51 @@ public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, IS
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">script</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteScript_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteScript_OpenQA_Selenium_PinnedScript_System_Object___" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript(OpenQA.Selenium.PinnedScript,System.Object[])">IJavaScriptExecutor.ExecuteScript(PinnedScript, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object IJavaScriptExecutor.ExecuteScript(PinnedScript script, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.PinnedScript</span></td>
         <td><span class="parametername">script</span></td>
         <td></td>
       </tr>
@@ -274,6 +536,96 @@ public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, IS
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_Internal_IFindsElement_FindElement_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#Internal#IFindsElement#FindElement*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_Internal_IFindsElement_FindElement_System_String_System_String_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#Internal#IFindsElement#FindElement(System.String,System.String)">IFindsElement.FindElement(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWebElement IFindsElement.FindElement(string mechanism, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.IWebElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_Internal_IFindsElement_FindElements_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#Internal#IFindsElement#FindElements*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_Internal_IFindsElement_FindElements_System_String_System_String_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#Internal#IFindsElement#FindElements(System.String,System.String)">IFindsElement.FindElements(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;IWebElement&gt; IFindsElement.FindElements(string mechanism, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">mechanism</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<span class="xref">OpenQA.Selenium.IWebElement</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -357,6 +709,46 @@ public sealed class SelfHealingWebDriver : ISelfHealingWebDriver, IWebDriver, IS
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<span class="xref">OpenQA.Selenium.IWebElement</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISupportsPrint_Print_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISupportsPrint#Print*"></a>
+  <h4 id="Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISupportsPrint_Print_OpenQA_Selenium_PrintOptions_" data-uid="Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISupportsPrint#Print(OpenQA.Selenium.PrintOptions)">ISupportsPrint.Print(PrintOptions)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">PrintDocument ISupportsPrint.Print(PrintOptions options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.PrintOptions</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenQA.Selenium.PrintDocument</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -746,7 +1138,7 @@ matching the current criteria, or an empty list if nothing matches.</p>
       <span class="xref">OpenQA.Selenium.ITakesScreenshot</span>
   </div>
   <div>
-      <span class="xref">IActionExecutor</span>
+      <span class="xref">OpenQA.Selenium.IActionExecutor</span>
   </div>
   <div>
       <span class="xref">OpenQA.Selenium.IAllowsFileDetection</span>
@@ -755,19 +1147,19 @@ matching the current criteria, or an empty list if nothing matches.</p>
       <span class="xref">OpenQA.Selenium.IHasCapabilities</span>
   </div>
   <div>
-      <span class="xref">IFindsElement</span>
+      <span class="xref">OpenQA.Selenium.Internal.IFindsElement</span>
   </div>
   <div>
-      <span class="xref">ISupportsPrint</span>
+      <span class="xref">OpenQA.Selenium.ISupportsPrint</span>
   </div>
   <div>
-      <span class="xref">IHasCommandExecutor</span>
+      <span class="xref">OpenQA.Selenium.IHasCommandExecutor</span>
   </div>
   <div>
-      <span class="xref">ICustomDriverCommandExecutor</span>
+      <span class="xref">OpenQA.Selenium.ICustomDriverCommandExecutor</span>
   </div>
   <div>
-      <span class="xref">IHasSessionId</span>
+      <span class="xref">OpenQA.Selenium.IHasSessionId</span>
   </div>
   <div>
       <a class="xref" href="Selenium.SelfHealing.ISearchContextDisabledHealing.html">ISearchContextDisabledHealing</a>
