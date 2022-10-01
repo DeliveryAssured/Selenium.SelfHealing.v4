@@ -1,0 +1,582 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: graph.windows.net/myorganization/Contacts/1.6
+  name: Contacts
+  href: restapi/contacts.html
+- uid: graph.windows.net/myorganization/Contacts/1.6/delete contact
+  name: delete contact
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_delete_contact
+- uid: graph.windows.net/myorganization/Contacts/1.6/delete contact manager by id
+  name: delete contact manager by id
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_delete_contact_manager_by_id
+- uid: graph.windows.net/myorganization/Contacts/1.6/get contact by id
+  name: get contact by id
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_get_contact_by_id
+- uid: graph.windows.net/myorganization/Contacts/1.6/get contact direct reports links
+  name: get contact direct reports links
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_get_contact_direct_reports_links
+- uid: graph.windows.net/myorganization/Contacts/1.6/get contact manager link
+  name: get contact manager link
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_get_contact_manager_link
+- uid: graph.windows.net/myorganization/Contacts/1.6/get contact memberOf links
+  name: get contact memberOf links
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_get_contact_memberOf_links
+- uid: graph.windows.net/myorganization/Contacts/1.6/get contacts
+  name: get contacts
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_get_contacts
+- uid: graph.windows.net/myorganization/Contacts/1.6/update contact
+  name: update contact
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_update_contact
+- uid: graph.windows.net/myorganization/Contacts/1.6/update contact manager
+  name: update contact manager
+  href: restapi/contacts.html#graph_windows_net_myorganization_Contacts_1_6_update_contact_manager
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0
+  name: Swagger Petstore
+  href: restapi/petstore.html
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/addPet
+  name: addPet
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_addPet
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/createUser
+  name: createUser
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_createUser
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/createUsersWithArrayInput
+  name: createUsersWithArrayInput
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_createUsersWithArrayInput
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/createUsersWithListInput
+  name: createUsersWithListInput
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_createUsersWithListInput
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/deleteOrder
+  name: deleteOrder
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_deleteOrder
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/deletePet
+  name: deletePet
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_deletePet
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/deleteUser
+  name: deleteUser
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_deleteUser
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/findPetsByStatus
+  name: findPetsByStatus
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_findPetsByStatus
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/findPetsByTags
+  name: findPetsByTags
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_findPetsByTags
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/getInventory
+  name: getInventory
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_getInventory
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/getOrderById
+  name: getOrderById
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_getOrderById
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/getPetById
+  name: getPetById
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_getPetById
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/getUserByName
+  name: getUserByName
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_getUserByName
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/loginUser
+  name: loginUser
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_loginUser
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/logoutUser
+  name: logoutUser
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_logoutUser
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/placeOrder
+  name: placeOrder
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_placeOrder
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/tag/pet
+  name: pet
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_tag_pet
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/tag/store
+  name: store
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_tag_store
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/tag/user
+  name: user
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_tag_user
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/updatePet
+  name: updatePet
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_updatePet
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/updatePetWithForm
+  name: updatePetWithForm
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_updatePetWithForm
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/updateUser
+  name: updateUser
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_updateUser
+- uid: petstore.swagger.io/v2/Swagger Petstore/1.0.0/uploadFile
+  name: uploadFile
+  href: restapi/petstore.html#petstore_swagger_io_v2_Swagger_Petstore_1_0_0_uploadFile
+- uid: Selenium.SelfHealing
+  name: Selenium.SelfHealing
+  href: api/Selenium.SelfHealing.html
+  commentId: N:Selenium.SelfHealing
+  fullName: Selenium.SelfHealing
+  nameWithType: Selenium.SelfHealing
+- uid: Selenium.SelfHealing.DisableHealing
+  name: DisableHealing
+  href: api/Selenium.SelfHealing.DisableHealing.html
+  commentId: T:Selenium.SelfHealing.DisableHealing
+  fullName: Selenium.SelfHealing.DisableHealing
+  nameWithType: DisableHealing
+- uid: Selenium.SelfHealing.ISearchContextDisabledHealing
+  name: ISearchContextDisabledHealing
+  href: api/Selenium.SelfHealing.ISearchContextDisabledHealing.html
+  commentId: T:Selenium.SelfHealing.ISearchContextDisabledHealing
+  fullName: Selenium.SelfHealing.ISearchContextDisabledHealing
+  nameWithType: ISearchContextDisabledHealing
+- uid: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(OpenQA.Selenium.By)
+  name: FindElement(By)
+  href: api/Selenium.SelfHealing.ISearchContextDisabledHealing.html#Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(OpenQA.Selenium.By)
+  fullName: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(OpenQA.Selenium.By)
+  nameWithType: ISearchContextDisabledHealing.FindElement(By)
+- uid: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement*
+  name: FindElement
+  href: api/Selenium.SelfHealing.ISearchContextDisabledHealing.html#Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_
+  commentId: Overload:Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement
+  isSpec: "True"
+  fullName: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement
+  nameWithType: ISearchContextDisabledHealing.FindElement
+- uid: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(OpenQA.Selenium.By)
+  name: FindElements(By)
+  href: api/Selenium.SelfHealing.ISearchContextDisabledHealing.html#Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(OpenQA.Selenium.By)
+  fullName: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(OpenQA.Selenium.By)
+  nameWithType: ISearchContextDisabledHealing.FindElements(By)
+- uid: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements*
+  name: FindElements
+  href: api/Selenium.SelfHealing.ISearchContextDisabledHealing.html#Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_
+  commentId: Overload:Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements
+  isSpec: "True"
+  fullName: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements
+  nameWithType: ISearchContextDisabledHealing.FindElements
+- uid: Selenium.SelfHealing.ISelfHealingWebDriver
+  name: ISelfHealingWebDriver
+  href: api/Selenium.SelfHealing.ISelfHealingWebDriver.html
+  commentId: T:Selenium.SelfHealing.ISelfHealingWebDriver
+  fullName: Selenium.SelfHealing.ISelfHealingWebDriver
+  nameWithType: ISelfHealingWebDriver
+- uid: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  name: DisableHealing
+  href: api/Selenium.SelfHealing.ISelfHealingWebDriver.html#Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing
+  commentId: P:Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  fullName: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  nameWithType: ISelfHealingWebDriver.DisableHealing
+- uid: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing*
+  name: DisableHealing
+  href: api/Selenium.SelfHealing.ISelfHealingWebDriver.html#Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing_
+  commentId: Overload:Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  isSpec: "True"
+  fullName: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  nameWithType: ISelfHealingWebDriver.DisableHealing
+- uid: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  name: OriginalWebDriver
+  href: api/Selenium.SelfHealing.ISelfHealingWebDriver.html#Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver
+  commentId: P:Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  fullName: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType: ISelfHealingWebDriver.OriginalWebDriver
+- uid: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver*
+  name: OriginalWebDriver
+  href: api/Selenium.SelfHealing.ISelfHealingWebDriver.html#Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver_
+  commentId: Overload:Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  isSpec: "True"
+  fullName: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType: ISelfHealingWebDriver.OriginalWebDriver
+- uid: Selenium.SelfHealing.SelfHealingWebDriver
+  name: SelfHealingWebDriver
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html
+  commentId: T:Selenium.SelfHealing.SelfHealingWebDriver
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver
+  nameWithType: SelfHealingWebDriver
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector
+  name: IAllowsFileDetection.FileDetector
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IAllowsFileDetection_FileDetector
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector
+  name.vb: OpenQA.Selenium.IAllowsFileDetection.FileDetector
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IAllowsFileDetection.FileDetector
+  nameWithType: SelfHealingWebDriver.IAllowsFileDetection.FileDetector
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IAllowsFileDetection.FileDetector
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector*
+  name: IAllowsFileDetection.FileDetector
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IAllowsFileDetection_FileDetector_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IAllowsFileDetection#FileDetector
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IAllowsFileDetection.FileDetector
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IAllowsFileDetection.FileDetector
+  nameWithType: SelfHealingWebDriver.IAllowsFileDetection.FileDetector
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IAllowsFileDetection.FileDetector
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCapabilities#Capabilities
+  name: IHasCapabilities.Capabilities
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasCapabilities_Capabilities
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCapabilities#Capabilities
+  name.vb: OpenQA.Selenium.IHasCapabilities.Capabilities
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IHasCapabilities.Capabilities
+  nameWithType: SelfHealingWebDriver.IHasCapabilities.Capabilities
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IHasCapabilities.Capabilities
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCapabilities#Capabilities*
+  name: IHasCapabilities.Capabilities
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IHasCapabilities_Capabilities_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IHasCapabilities#Capabilities
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IHasCapabilities.Capabilities
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IHasCapabilities.Capabilities
+  nameWithType: SelfHealingWebDriver.IHasCapabilities.Capabilities
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IHasCapabilities.Capabilities
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript(System.String,System.Object[])
+  name: IJavaScriptExecutor.ExecuteAsyncScript(String, Object[])
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteAsyncScript_System_String_System_Object___
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript(System.String,System.Object[])
+  name.vb: OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript(String, Object())
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript(System.String, System.Object[])
+  fullName.vb: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript(System.String, System.Object())
+  nameWithType: SelfHealingWebDriver.IJavaScriptExecutor.ExecuteAsyncScript(String, Object[])
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript(String, Object())
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript*
+  name: IJavaScriptExecutor.ExecuteAsyncScript
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteAsyncScript_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteAsyncScript
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript
+  nameWithType: SelfHealingWebDriver.IJavaScriptExecutor.ExecuteAsyncScript
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteAsyncScript
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript(System.String,System.Object[])
+  name: IJavaScriptExecutor.ExecuteScript(String, Object[])
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteScript_System_String_System_Object___
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript(System.String,System.Object[])
+  name.vb: OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(String, Object())
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(System.String, System.Object[])
+  fullName.vb: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(System.String, System.Object())
+  nameWithType: SelfHealingWebDriver.IJavaScriptExecutor.ExecuteScript(String, Object[])
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript(String, Object())
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript*
+  name: IJavaScriptExecutor.ExecuteScript
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IJavaScriptExecutor_ExecuteScript_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IJavaScriptExecutor#ExecuteScript
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript
+  nameWithType: SelfHealingWebDriver.IJavaScriptExecutor.ExecuteScript
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IJavaScriptExecutor.ExecuteScript
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElement(OpenQA.Selenium.By)
+  name: ISearchContext.FindElement(By)
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISearchContext_FindElement_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElement(OpenQA.Selenium.By)
+  name.vb: OpenQA.Selenium.ISearchContext.FindElement(By)
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElement(OpenQA.Selenium.By)
+  nameWithType: SelfHealingWebDriver.ISearchContext.FindElement(By)
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElement(By)
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElement*
+  name: ISearchContext.FindElement
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISearchContext_FindElement_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElement
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.ISearchContext.FindElement
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElement
+  nameWithType: SelfHealingWebDriver.ISearchContext.FindElement
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElement
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElements(OpenQA.Selenium.By)
+  name: ISearchContext.FindElements(By)
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISearchContext_FindElements_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElements(OpenQA.Selenium.By)
+  name.vb: OpenQA.Selenium.ISearchContext.FindElements(By)
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElements(OpenQA.Selenium.By)
+  nameWithType: SelfHealingWebDriver.ISearchContext.FindElements(By)
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElements(By)
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElements*
+  name: ISearchContext.FindElements
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ISearchContext_FindElements_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ISearchContext#FindElements
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.ISearchContext.FindElements
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElements
+  nameWithType: SelfHealingWebDriver.ISearchContext.FindElements
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ISearchContext.FindElements
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ITakesScreenshot#GetScreenshot
+  name: ITakesScreenshot.GetScreenshot()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ITakesScreenshot_GetScreenshot
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ITakesScreenshot#GetScreenshot
+  name.vb: OpenQA.Selenium.ITakesScreenshot.GetScreenshot()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ITakesScreenshot.GetScreenshot()
+  nameWithType: SelfHealingWebDriver.ITakesScreenshot.GetScreenshot()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ITakesScreenshot.GetScreenshot()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ITakesScreenshot#GetScreenshot*
+  name: ITakesScreenshot.GetScreenshot
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_ITakesScreenshot_GetScreenshot_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#ITakesScreenshot#GetScreenshot
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.ITakesScreenshot.GetScreenshot
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.ITakesScreenshot.GetScreenshot
+  nameWithType: SelfHealingWebDriver.ITakesScreenshot.GetScreenshot
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.ITakesScreenshot.GetScreenshot
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Close
+  name: IWebDriver.Close()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Close
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Close
+  name.vb: OpenQA.Selenium.IWebDriver.Close()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Close()
+  nameWithType: SelfHealingWebDriver.IWebDriver.Close()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Close()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Close*
+  name: IWebDriver.Close
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Close_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Close
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Close
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Close
+  nameWithType: SelfHealingWebDriver.IWebDriver.Close
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Close
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#CurrentWindowHandle
+  name: IWebDriver.CurrentWindowHandle
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_CurrentWindowHandle
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#CurrentWindowHandle
+  name.vb: OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+  nameWithType: SelfHealingWebDriver.IWebDriver.CurrentWindowHandle
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#CurrentWindowHandle*
+  name: IWebDriver.CurrentWindowHandle
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_CurrentWindowHandle_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#CurrentWindowHandle
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+  nameWithType: SelfHealingWebDriver.IWebDriver.CurrentWindowHandle
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.CurrentWindowHandle
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Manage
+  name: IWebDriver.Manage()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Manage
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Manage
+  name.vb: OpenQA.Selenium.IWebDriver.Manage()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Manage()
+  nameWithType: SelfHealingWebDriver.IWebDriver.Manage()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Manage()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Manage*
+  name: IWebDriver.Manage
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Manage_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Manage
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Manage
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Manage
+  nameWithType: SelfHealingWebDriver.IWebDriver.Manage
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Manage
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Navigate
+  name: IWebDriver.Navigate()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Navigate
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Navigate
+  name.vb: OpenQA.Selenium.IWebDriver.Navigate()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Navigate()
+  nameWithType: SelfHealingWebDriver.IWebDriver.Navigate()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Navigate()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Navigate*
+  name: IWebDriver.Navigate
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Navigate_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Navigate
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Navigate
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Navigate
+  nameWithType: SelfHealingWebDriver.IWebDriver.Navigate
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Navigate
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#PageSource
+  name: IWebDriver.PageSource
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_PageSource
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#PageSource
+  name.vb: OpenQA.Selenium.IWebDriver.PageSource
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.PageSource
+  nameWithType: SelfHealingWebDriver.IWebDriver.PageSource
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.PageSource
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#PageSource*
+  name: IWebDriver.PageSource
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_PageSource_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#PageSource
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.PageSource
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.PageSource
+  nameWithType: SelfHealingWebDriver.IWebDriver.PageSource
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.PageSource
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Quit
+  name: IWebDriver.Quit()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Quit
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Quit
+  name.vb: OpenQA.Selenium.IWebDriver.Quit()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Quit()
+  nameWithType: SelfHealingWebDriver.IWebDriver.Quit()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Quit()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Quit*
+  name: IWebDriver.Quit
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Quit_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Quit
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Quit
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Quit
+  nameWithType: SelfHealingWebDriver.IWebDriver.Quit
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Quit
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#SwitchTo
+  name: IWebDriver.SwitchTo()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_SwitchTo
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#SwitchTo
+  name.vb: OpenQA.Selenium.IWebDriver.SwitchTo()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.SwitchTo()
+  nameWithType: SelfHealingWebDriver.IWebDriver.SwitchTo()
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.SwitchTo()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#SwitchTo*
+  name: IWebDriver.SwitchTo
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_SwitchTo_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#SwitchTo
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.SwitchTo
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.SwitchTo
+  nameWithType: SelfHealingWebDriver.IWebDriver.SwitchTo
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.SwitchTo
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Title
+  name: IWebDriver.Title
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Title
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Title
+  name.vb: OpenQA.Selenium.IWebDriver.Title
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Title
+  nameWithType: SelfHealingWebDriver.IWebDriver.Title
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Title
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Title*
+  name: IWebDriver.Title
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Title_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Title
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Title
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Title
+  nameWithType: SelfHealingWebDriver.IWebDriver.Title
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Title
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Url
+  name: IWebDriver.Url
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Url
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Url
+  name.vb: OpenQA.Selenium.IWebDriver.Url
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Url
+  nameWithType: SelfHealingWebDriver.IWebDriver.Url
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Url
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Url*
+  name: IWebDriver.Url
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_Url_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#Url
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.Url
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Url
+  nameWithType: SelfHealingWebDriver.IWebDriver.Url
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.Url
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#WindowHandles
+  name: IWebDriver.WindowHandles
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_WindowHandles
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#WindowHandles
+  name.vb: OpenQA.Selenium.IWebDriver.WindowHandles
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.WindowHandles
+  nameWithType: SelfHealingWebDriver.IWebDriver.WindowHandles
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.WindowHandles
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#WindowHandles*
+  name: IWebDriver.WindowHandles
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_OpenQA_Selenium_IWebDriver_WindowHandles_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.OpenQA#Selenium#IWebDriver#WindowHandles
+  isSpec: "True"
+  name.vb: OpenQA.Selenium.IWebDriver.WindowHandles
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.WindowHandles
+  nameWithType: SelfHealingWebDriver.IWebDriver.WindowHandles
+  nameWithType.vb: SelfHealingWebDriver.OpenQA.Selenium.IWebDriver.WindowHandles
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement(OpenQA.Selenium.By)
+  name: ISearchContextDisabledHealing.FindElement(By)
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement(OpenQA.Selenium.By)
+  name.vb: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(By)
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(OpenQA.Selenium.By)
+  nameWithType: SelfHealingWebDriver.ISearchContextDisabledHealing.FindElement(By)
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement(By)
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement*
+  name: ISearchContextDisabledHealing.FindElement
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElement_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElement
+  isSpec: "True"
+  name.vb: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement
+  nameWithType: SelfHealingWebDriver.ISearchContextDisabledHealing.FindElement
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElement
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements(OpenQA.Selenium.By)
+  name: ISearchContextDisabledHealing.FindElements(By)
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_OpenQA_Selenium_By_
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements(OpenQA.Selenium.By)
+  name.vb: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(By)
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(OpenQA.Selenium.By)
+  nameWithType: SelfHealingWebDriver.ISearchContextDisabledHealing.FindElements(By)
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements(By)
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements*
+  name: ISearchContextDisabledHealing.FindElements
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISearchContextDisabledHealing_FindElements_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISearchContextDisabledHealing#FindElements
+  isSpec: "True"
+  name.vb: Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements
+  nameWithType: SelfHealingWebDriver.ISearchContextDisabledHealing.FindElements
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISearchContextDisabledHealing.FindElements
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing
+  name: ISelfHealingWebDriver.DisableHealing
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing
+  name.vb: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  nameWithType: SelfHealingWebDriver.ISelfHealingWebDriver.DisableHealing
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing*
+  name: ISelfHealingWebDriver.DisableHealing
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_DisableHealing_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#DisableHealing
+  isSpec: "True"
+  name.vb: Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+  nameWithType: SelfHealingWebDriver.ISelfHealingWebDriver.DisableHealing
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.DisableHealing
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver
+  name: ISelfHealingWebDriver.OriginalWebDriver
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver
+  commentId: P:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver
+  name.vb: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType: SelfHealingWebDriver.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver*
+  name: ISelfHealingWebDriver.OriginalWebDriver
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_Selenium_SelfHealing_ISelfHealingWebDriver_OriginalWebDriver_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.Selenium#SelfHealing#ISelfHealingWebDriver#OriginalWebDriver
+  isSpec: "True"
+  name.vb: Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType: SelfHealingWebDriver.ISelfHealingWebDriver.OriginalWebDriver
+  nameWithType.vb: SelfHealingWebDriver.Selenium.SelfHealing.ISelfHealingWebDriver.OriginalWebDriver
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_System_IDisposable_Dispose
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriver.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.System.IDisposable.Dispose()
+  nameWithType: SelfHealingWebDriver.IDisposable.Dispose()
+  nameWithType.vb: SelfHealingWebDriver.System.IDisposable.Dispose()
+- uid: Selenium.SelfHealing.SelfHealingWebDriver.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/Selenium.SelfHealing.SelfHealingWebDriver.html#Selenium_SelfHealing_SelfHealingWebDriver_System_IDisposable_Dispose_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriver.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: Selenium.SelfHealing.SelfHealingWebDriver.System.IDisposable.Dispose
+  nameWithType: SelfHealingWebDriver.IDisposable.Dispose
+  nameWithType.vb: SelfHealingWebDriver.System.IDisposable.Dispose
+- uid: Selenium.SelfHealing.SelfHealingWebDriverFactory
+  name: SelfHealingWebDriverFactory
+  href: api/Selenium.SelfHealing.SelfHealingWebDriverFactory.html
+  commentId: T:Selenium.SelfHealing.SelfHealingWebDriverFactory
+  fullName: Selenium.SelfHealing.SelfHealingWebDriverFactory
+  nameWithType: SelfHealingWebDriverFactory
+- uid: Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver(OpenQA.Selenium.IWebDriver,System.String)
+  name: ToSelfHealingDriver(IWebDriver, String)
+  href: api/Selenium.SelfHealing.SelfHealingWebDriverFactory.html#Selenium_SelfHealing_SelfHealingWebDriverFactory_ToSelfHealingDriver_OpenQA_Selenium_IWebDriver_System_String_
+  commentId: M:Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver(OpenQA.Selenium.IWebDriver,System.String)
+  fullName: Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver(OpenQA.Selenium.IWebDriver, System.String)
+  nameWithType: SelfHealingWebDriverFactory.ToSelfHealingDriver(IWebDriver, String)
+- uid: Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver*
+  name: ToSelfHealingDriver
+  href: api/Selenium.SelfHealing.SelfHealingWebDriverFactory.html#Selenium_SelfHealing_SelfHealingWebDriverFactory_ToSelfHealingDriver_
+  commentId: Overload:Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver
+  isSpec: "True"
+  fullName: Selenium.SelfHealing.SelfHealingWebDriverFactory.ToSelfHealingDriver
+  nameWithType: SelfHealingWebDriverFactory.ToSelfHealingDriver
