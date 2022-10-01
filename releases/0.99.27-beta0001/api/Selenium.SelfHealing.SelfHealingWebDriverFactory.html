@@ -138,7 +138,7 @@ Features</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ISelfHealingWebDriver ToSelfHealingDriver(this IWebDriver delegateDriver, string testName = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static ISelfHealingWebDriver ToSelfHealingDriver(this IWebDriver webDriver, string testName = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,8 +152,9 @@ Features</p>
     <tbody>
       <tr>
         <td><span class="xref">OpenQA.Selenium.IWebDriver</span></td>
-        <td><span class="parametername">delegateDriver</span></td>
-        <td></td>
+        <td><span class="parametername">webDriver</span></td>
+        <td><p>The original IWebDriver</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
