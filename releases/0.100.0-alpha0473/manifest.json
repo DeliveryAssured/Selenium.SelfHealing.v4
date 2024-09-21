@@ -1,0 +1,426 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/DeliveryAssured/github/SeleniumSelfHealing/self-healing-product/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "IdjNKL56oJcMcQBh1X2dLlbAl+ecQoOq7DcXV8uwyKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "RELEASENOTE.md",
+      "output": {
+        ".html": {
+          "relative_path": "RELEASENOTE.html",
+          "hash": "0MVxob2tRRArI07lQXbFJdZcDBT0OvVrop7uvCj5qGU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/auto-wait.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/auto-wait.html",
+          "hash": "mtWR7dEgSBOw0PiscZsvP/f4gb+kpsemsF1JZPpgDuY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/csharp_coding_standards.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/csharp_coding_standards.html",
+          "hash": "HrBfbatEkAtnEuIz3xjLiv1rv6rDAqbvAServFQ6iL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/dev-ops-integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/dev-ops-integration.html",
+          "hash": "5xA5zCr7bEi02QG54rTEGSA/oj+EeABqI01wZia//pE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/extensive-logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/extensive-logging.html",
+          "hash": "ifXWq7NqfFDsmAvnd8pf82Wtp+l4a6GUuu2wWypJUVA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/features.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/features.html",
+          "hash": "rdMSCCly7njqg0xa5OpS6n/PjaOtleUzDJm9oY8cqzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting_started.html",
+          "hash": "yDpUXPcrP9vtVOx+Yag6QMmN8WoeQFuvoqzSUIISbrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/seed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/seed.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/insights-report.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/insights-report.html",
+          "hash": "ev80Giv7rAkKuemjrYP1xpqLOMWhvRMdjC68e5ZTbZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/reduced-maintenance.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/reduced-maintenance.html",
+          "hash": "F95r+4jJjm3C41ZcvKhtTizhAm2MiJCsg/bAe+DdLWI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/return-on-investment.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/return-on-investment.html",
+          "hash": "anJ/DFn0nRioh01gNz/mFG63ZMfff9sNyf+0WQZ/ZXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/selector-optimization.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/selector-optimization.html",
+          "hash": "yLPj5e14CQF0WDPvXYGIHwQxs/sJ6rPnWRNaVsSILN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/self-healing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/self-healing.html",
+          "hash": "hEnAD8+ycQCA7qW3+c/UTR4g70GzVisNr/R2JewkdOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/technology.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/technology.html",
+          "hash": "WFmh0/Kz86GooQ+E2G3ZiEQxdCCPIP2MT07Bkd3G6sM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "5/GatySTemjqwZcHDgLdgirVNXb4ccRcuZSCpPx+HLQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/what-to-expect.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/what-to-expect.html",
+          "hash": "QvWebubmaMP0COV6uRAYYaK2UC8HTC5ylVMvDCglj00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "index",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sOXtrLfMnnvaUoyggDJamphSIYdR5n5nRBr5FJGz17M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.DisableHealing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.DisableHealing.html",
+          "hash": "lo14CMrbKtdn9n2wTlkbRCgVWXowwa7eVNhYFHmTYoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.ISearchContextDisabledHealing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.ISearchContextDisabledHealing.html",
+          "hash": "JJ4sPzZGAO9wxZJI6odoIpJMqAyH8BHnqV596fsK5QQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.ISelfHealingWebDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.ISelfHealingWebDriver.html",
+          "hash": "vv28OQioofOFr33mfjUDtF5hl0B/68LXe8z5pw4aJsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.SelfHealingWebDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.SelfHealingWebDriver.html",
+          "hash": "nxmsoWD91Qc6YRFC4xMAPB9jhOqcyUfmpe5dAntDxd0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.SelfHealingWebDriverFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.SelfHealingWebDriverFactory.html",
+          "hash": "/UXGSxnXC4buoJ4mvy+ANodtW74vyXQtqeVosgD8GhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Selenium.SelfHealing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Selenium.SelfHealing.html",
+          "hash": "YZ4WqSTi6QbzNsBZvQJ70FurvjZNDtFVbY5o2BBt/Dg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "5gDAXxa0rM1uowhr16a6o7SgXAqRN++jrAi99D6pa8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "RestApi",
+      "source_relative_path": "restapi/contacts_swagger2.json",
+      "output": {
+        ".html": {
+          "relative_path": "restapi/contacts.html",
+          "hash": "kj1Wci459g37Jb4xbZ2So/rCLM04hvWKrcC7eb7E2Y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "RestApi",
+      "source_relative_path": "restapi/petstore.swagger.json",
+      "output": {
+        ".html": {
+          "relative_path": "restapi/petstore.html",
+          "hash": "1Iq7URV3hGC3wyzbO6hFLV1XbmHBG29TCQarn7gmCxU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "restapi/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "restapi/toc.html",
+          "hash": "JJoWU+OW6wo50SttAqS1LZEzWuRzdnbs75UYJf29u1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "XbtGNTB4EOebYfnPRaCPylKlyIfPJqtaeK8R6x3FmRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
